@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@500&family=Rowdies:wght@700&display=swap');
+
+.NavBar {
+  font-family: 'Space Mono', monospace;
+  background-color: #1F2937;
+  color: #8bd7d2;
+  font-weight: 700;
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.NavButtons {
+  display: flex;
+  justify-items: flex-end;
+}
+
+.Logo {
+  font-size: 48px;
+  color: #49C6E5;
+}
+
+
+
+ul {
+  list-style-type: none;
+  gap: 20px;
+}
+
+.HeroContainer {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.HeroFrank {
+  object-fit: contain;
+  max-width: 500px;
+}
+
+h1 {
+  font-family: 'Rowdies', cursive;
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: 'Pathway Extreme', sans-serif;
+  font-size: 18px;
+  color: #E5E7EB;
+  font-weight: 400;
+}
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3882F6;
+  color: #ffffff;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  box-shadow: #1F2937;
+  border-radius: 10px;
+}
+
+.Information {
+  font-family: 'Pathway Extreme', sans-serif;
+  font-size: 26px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+  
+}
+.InfoImage {
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.InfoHeader {
+  font-family: 'Pathway Extreme', sans-serif;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  color: #1F2937;
+}
