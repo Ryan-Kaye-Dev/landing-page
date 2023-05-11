@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@500&family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Pathway+Extreme:wght@500&family=Rowdies:wght@700&display=swap');
 
 .NavBar {
   font-family: 'Space Mono', monospace;
   background-color: #1F2937;
   color: #8bd7d2;
   font-weight: 700;
-
+ 
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -16,6 +16,7 @@
 }
 
 .NavButtons {
+  font-size: 24px;
   display: flex;
   justify-items: flex-end;
 }
@@ -47,20 +48,20 @@ ul {
 
 h1 {
   font-family: 'Rowdies', cursive;
-  font-size: 48px;
+  font-size: 72px;
   color: #F9FAF8;
   font-weight: 800;
 }
 
 h2 {
   font-family: 'Pathway Extreme', sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   color: #E5E7EB;
   font-weight: 400;
 }
 
 button {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
   background-color: #3882F6;
   color: #ffffff;
@@ -75,10 +76,12 @@ button {
   font-family: 'Pathway Extreme', sans-serif;
   font-size: 26px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
-  margin: 10px;
-  padding: 0;
+  margin: 0;
+  padding-left: 200px;
+  padding-right: 200px;
+  gap: 20px
   
 }
 .InfoImage {
@@ -86,6 +89,7 @@ button {
   height: 400px;
   overflow: hidden;
   border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .InfoHeader {
@@ -93,6 +97,70 @@ button {
   padding: 50px;
   display: flex;
   justify-content: center;
-  font-size: 36px;
+  font-size: 48px;
+  font-weight: 800;
   color: #1F2937;
+}
+
+.QuoteSection {
+
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  margin: 0;
+}
+
+.Quote {
+
+  align-items: center;
+
+  font-family: 'Nunito', sans-serif;
+  color: #1F2937;
+  font-size: 72px;
+  font-style: italic;
+}
+
+.Author {
+
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.CallToAction {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.C2ABox {
+
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: #3882F6;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.container-left {
+  font-family: 'Pathway Extreme', sans-serif;
+  color: white;
+  font-size: 24px;
+  margin: 20px 200px;
+  display: flex;
+  flex-direction: column;
+}
+.container-right {
+  margin: 40px 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.C2AButton {
+  border: solid white 2px;
 }
